@@ -1,0 +1,11 @@
+﻿.gallery {
+overflow: hidden;
+clear: both;
+}
+.gallery li:nth-child(n) {
+width: 23.40425%;
+margin: 0 0 2.12765% 2.12765%;
+}
+.gallery li:nth-child(4n+1) {
+margin-left: 0;
+}

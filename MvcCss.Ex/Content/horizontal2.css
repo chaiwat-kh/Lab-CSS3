@@ -1,0 +1,83 @@
+﻿body {
+}
+
+.wrapper {
+    width: 100%;
+    float: left;
+    margin: 20px auto 40px auto;
+}
+
+.nav {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.nav li {
+float: left;
+width: 130px;
+margin-right: 20px;
+}
+
+.nav li a:link strong,
+.nav li a:visited strong 
+{
+    font-size: 157.1%;
+    display: block;
+    font-weight: normal;
+    color: rgb(119, 126, 134);
+    font-style: normal;
+}
+
+.nav li a:link,
+.nav li a:visited
+{
+    text-decoration: none;
+    color: rgb(93, 78, 72);
+    font-style: italic;    
+}
+
+.nav li a:hover, .nav li a:hover strong
+{
+    color: rgb(0,0,0);
+}
+
+.shortLink[href^="http:"] {
+padding-left: 20px;
+background-image: url(icon-link-external.png);
+background-repeat: no-repeat;
+}
+
+.wrapper2 {
+    width: 100%;
+    float: left;
+    margin: 40px auto 40px auto;
+    background-position: bottom left;
+}
+
+.wrapper3 {
+    width: 100%;
+    float: left;
+    margin: 40px auto 40px auto;
+}
+
+.links
+{
+    list-style: none;
+}
+
+.links a[href^="http:"] {
+padding-left: 20px;
+background-image: url("themes/base/images/hmenu-lock.gif");
+background-repeat: no-repeat;
+}
+.links a[href^="mailto:"] {
+padding-left: 20px;
+background-image: url(icon-link-email.png);
+background-repeat: no-repeat;
+}
+.links a[href$=".pdf"] {
+padding-left: 20px;
+background-image: url(icon-pdf.png);
+background-repeat: no-repeat;
+}

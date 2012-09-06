@@ -1,0 +1,12 @@
+﻿.gallery {
+overflow: hidden;
+clear: both;
+}
+.gallery li {
+float: left;
+width: 48.78048%;
+margin: 0 0 2.43902% 2.43902%;
+}
+.gallery li:nth-child(2n+1) {
+margin-left: 0;
+}

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter 9: Responsive</title>
+
+    <meta name="viewport" content="width=device-width,
+        target-densitydpi=160dpi, initial-scale=1.0" />
+    <link href="@Url.Content("~/Content/responsive-basic.css")" rel="stylesheet" type="text/css" />
+    
+    <link media="only screen and (min-width: 460px)" 
+        href="@Url.Content("~/Content/responsive-410.css")" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" media="only screen and (min-width: 768px)"
+        href="@Url.Content("~/Content/responsive-700.css")" />
+    <link rel="stylesheet" media="only screen and (min-width: 992px)"
+        href="@Url.Content("~/Content/responsive-940.css")" />
+    <link rel="stylesheet" media="only screen and (min-width: 1280px)"
+        href="@Url.Content("~/Content/responsive-1180.css")" />
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+        <h1>My Portfolio</h1>
+        <ul class="nav">
+            <li><a href="">About</a></li>
+            <li><a href="">Photos</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="feature">
+            <img src="@Url.Content("~/Content/themes/base/images/northumber_main.jpg")" alt="path from the coast to
+            Dunstanburgh Castle, Northumberland" />
+            <div class="caption">Dunstanburgh Castle, Northumberland</div>
+        </div>
+        <div class="intro">
+            <h2>A trip to Northumberland</h2>
+            <p>The photos in this gallery were taken on a recent trip to
+            Northumberland in the North East of the United Kingdom.</p>
+            <p>The North-East coast is my favourite place in the world.
+            It can get very cold and windy but you are rewarded for
+            braving the elements by an amazing coastline, castles and
+            the opportunity to see puffins and terns on the Farne
+            Islands.</p>
+        </div>
+        <div class="gallery">
+            <ul>
+                <li><img src="@Url.Content("~/Content/themes/base/images/ntb_one.jpg")" alt="Dunstanburgh Castle"
+                    width="280" />
+                    <span class="caption">Dunstanburgh Castle</span>
+                </li>
+                <li><img src="@Url.Content("~/Content/themes/base/images/ntb_two.jpg")" alt="Dunstanburgh Castle"
+                    width="280" />
+                    <span class="caption">Dunstanburgh Castle</span>
+                </li>
+                <li><img src="@Url.Content("~/Content/themes/base/images/ntb_three.jpg")" alt="Lindisfarne Abbey
+                    ruins" width="280" />
+                    <span class="caption">Lindisfarne Abbey ruins</span>
+                </li>
+                <li><img src="@Url.Content("~/Content/themes/base/images/ntb_four.jpg")" alt="Dunstanburgh Castle"
+                    width="280" />
+                    <span class="caption">Dunstanburgh Castle</span>
+                </li>
+                <li><img src="@Url.Content("~/Content/themes/base/images/ntb_five.jpg")" alt="Lindisfarne Abbey
+                    ruins" width="280" />
+                    <span class="caption">Lindisfarne Abbey ruins</span>
+                </li>
+                <li><img src="@Url.Content("~/Content/themes/base/images/ntb_six.jpg")" alt="Lindisfarne Abbey ruins"
+                    width="280" />
+                    <span class="caption">Lindisfarne Abbey ruins</span>
+                </li>               
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrapper">
+        <p>All photos &copy; Rachel Andrew | Find me on
+            <a href="http://www.flickr.com/photos/rachelandrew/">
+            Flickr</a></p>
+        </div>
+    </div>
+    <script src="ios-orientationchange-fix.js"></script>
+</body>
+</html>

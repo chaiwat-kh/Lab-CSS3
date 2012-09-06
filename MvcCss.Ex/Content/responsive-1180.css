@@ -1,0 +1,18 @@
+﻿.wrapper {
+max-width: 1180px;
+}
+.feature {
+float: left;
+width: 79.66101%;
+}
+.intro {
+float: right;
+width: 18.64406%;
+}
+.gallery li:nth-child(n) {
+width: 18.64406%;
+margin: 0 0 1.69491% 1.69491%;
+}
+.gallery li:nth-child(5n+1) {
+margin-left: 0;
+}

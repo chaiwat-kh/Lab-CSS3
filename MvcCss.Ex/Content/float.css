@@ -1,0 +1,25 @@
+﻿body {
+}
+
+.recipe img
+{
+    float: right;
+    width: 300px;
+    margin: 0 1em 1em 1em; 
+    -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.4);
+      
+}
+
+ul.ingredients {
+clear: both;
+border-top: 1px solid #999;
+border-bottom: 1px solid #999;
+list-style: none;
+margin: 1em 0 1em 0;
+padding: 1em 0 1em 30px;
+background-image: url(ingredients.png);
+background-repeat: no-repeat;
+background-position: 0 1em;
+}

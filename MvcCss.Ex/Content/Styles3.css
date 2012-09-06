@@ -1,0 +1,66 @@
+﻿html {
+background-image: url("themes/base/images/Sunset.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+color: #fff;
+background-color: #000;
+}
+
+
+h1 {
+width: 40%;
+padding: 0.6em 0.6em 0.6em 2em;
+margin: 40px 0 0 0;
+font-size: 127.6%;
+background-color: rgba(255,255,255,0.3);
+color: #fff;
+opacity: 0.5;
+float: left;
+-webkit-box-shadow: 3px 3px 10px 8px rgba(0, 0, 0, 0.4);
+-moz-box-shadow: 3px 3px 10px 8px rgba(0, 0, 0, 0.4);
+box-shadow: 3px 3px 10px 8px rgba(0, 0, 0, 0.4);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.content {
+    width: 60%;
+    padding: 0.6em 0.6em 0.6em 2em;
+    margin: 40px 0 0 0;
+    background-color: #fff;
+    color: #000;
+    opacity: 0.5;
+    float: left;
+}
+
+.recipe {
+float: right;
+width: 200px;
+margin: 0 0 1em 1em;
+-webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.4);
+-moz-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.4);
+box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.4);
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+-o-transform: rotate(5deg);
+-ms-transform: rotate(5deg);
+transform: rotate(5deg);
+}
+
+.box {
+height: 600px;
+width: 600px;
+border: 3px solid #333;
+background: 
+url("themes/base/images/ball1.jpg") top right no-repeat,
+url("themes/base/images/ball2.jpg") top left no-repeat;
+}
+
+
+

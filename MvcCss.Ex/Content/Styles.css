@@ -1,0 +1,164 @@
+﻿body {
+background-color: #333;
+background-image: Url("themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png");
+background-repeat: repeat-x;
+background-position: 30% 80%;
+background-attachment: fixed;
+color: #fff;
+margin: 0;
+padding: 0;
+font: 0.75em/1.3 "Lucida Grande", "Lucida Sans Unicode",
+"Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+width: 50%;
+margin: 20px auto 40px auto;
+background-color: #fff;
+color: #333;
+}
+.wrapper:first-line {
+font-size: 200%;
+font-weight: bold;
+}
+
+h1 
+{
+    background-color: #ADD8E6;
+    padding: 1em;
+    border-bottom:  1px solid #000000;   
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #000000;
+    text-shadow: 3px 3px 3px #999;
+}
+
+h1 + p:first-letter {
+font-size: 200%;
+font-weight: bold;
+float: left;
+width: 1em;
+line-height: 1;
+}
+
+h2 {
+color: #0000ff;
+}
+
+.sidebar {
+color: #ffffff;
+}
+
+#tagline {
+color: #ffffff;
+}
+
+.sidebar h2 {
+color: #ffffff;
+}
+
+p { color: #000000;
+    text-indent: 1.5em;
+    font-size: small;
+  }
+  
+  em {
+font-size: larger;
+}
+
+.message { color: #CCCCCC; }
+p.message { color: Red; }
+#content p.message { color: Yellow; }
+
+h2+p {
+color: #FFFFFF;
+}
+
+.tagline>p {
+color: Red;
+}
+
+.sidebar>p {
+color: #ffffff;
+}
+
+.article p {
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.article p:first-child {
+font-size: 1.5em;
+font-weight: bold;
+}
+
+
+
+.article:after {
+content: "End here";
+}
+
+li:first-child {
+color: red;
+}
+
+li:only-child {
+list-style-type: none;
+font-weight: bold;
+color: Green;
+}
+
+form input[type="text"] {
+background-color: #ffffff;
+color: #333333;
+}
+
+a:link, a:visited {
+text-decoration: underline;
+color: #6A5ACD;
+background-color: transparent;
+}
+a:hover, a:active {
+text-decoration: underline overline;
+color: #191970;
+background-color: #C9C3ED;
+}
+
+.boxout>p {
+color: #FFFFFF;
+background-color: #6A5ACD;
+}
+.boxout a:link, .boxout a:visited {
+text-decoration: underline;
+color: #E4E2F6;
+background-color: transparent;
+}
+.boxout a:hover, .boxout a:active {
+background-color: #C9C3ED;
+color: #191970;
+text-decoration: none;
+}
+
+.hilite
+{
+    background-color: #FFFFCC;
+    color: Red;
+}
+
+.indent {
+padding-left: 1.5em;
+}
+
+.transform {
+text-transform: capitalize;
+}
+
+ul
+{
+    list-style-image: Url("themes/base/images/hmenu-lock.gif");
+}
+
+ul.nav li 
+{
+    display: inline;    
+}

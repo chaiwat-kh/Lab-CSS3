@@ -1,0 +1,35 @@
+﻿.article {
+float: left;
+width: 540px;
+}
+
+.aside {
+width: 300px;
+float: right;
+}
+
+.footer {
+clear: both;
+background-color: rgb(59,67,68);
+color: rgb(255,255,255);
+padding: 20px;
+overflow:auto;
+}
+
+.footer .copy {
+float: left;
+width: 520px;
+}
+
+.footer .vcard {
+float: right;
+width: 280px;
+}
+
+.footer a:link, .footer a:visited {
+color: rgb(255,255,255);
+}
+
+.clear {
+clear: both;
+}
