@@ -23,3 +23,25 @@ D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MV
 D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MVCLab\MvcCss.Ex\obj\Debug\ResolveAssemblyReference.cache
 D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MVCLab\MvcCss.Ex\obj\Debug\MvcCss.Ex.dll
 D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MVCLab\MvcCss.Ex\obj\Debug\MvcCss.Ex.pdb
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\MvcCss.Ex.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\MvcCss.Ex.pdb
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Json.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Net.Http.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Net.Http.Formatting.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Net.Http.WebRequest.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Http.Common.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Http.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Http.WebHost.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Mvc.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\EntityFramework.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Json.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Net.Http.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Net.Http.Formatting.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Net.Http.WebRequest.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Http.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Http.Common.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Http.WebHost.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\bin\System.Web.Mvc.xml
+D:\Lab\Lab-CSS3\MvcCss.Ex\obj\Debug\ResolveAssemblyReference.cache
+D:\Lab\Lab-CSS3\MvcCss.Ex\obj\Debug\MvcCss.Ex.dll
+D:\Lab\Lab-CSS3\MvcCss.Ex\obj\Debug\MvcCss.Ex.pdb
